@@ -7,7 +7,7 @@ export const signup = async (req, res) => {
     const { fullName, email, password } = req.body;
 
     try {
-        // Validate input
+        
         if (!fullName || !email || !password) {
             return res.status(400).json({ message: "All fields are required" });
         }
@@ -91,7 +91,7 @@ export const logout = (req, res) => {
 
 export const updateProfile = async (req, res) => {
     try {
-        const { profilePic } = req.body; // ✅ Fixed variable name
+        const { profilePic } = req.body; 
 
         const userId = req.user._id;
 
