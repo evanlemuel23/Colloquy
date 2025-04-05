@@ -7,26 +7,26 @@ config();
 const seedUsers = [
   // Female Users
   {
-    email: "emma.thompson@example.com",
+    email: "Rachel.thompson@example.com",
     fullName: "Emma Thompson",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/women/1.jpg",
   },
   {
-    email: "olivia.miller@example.com",
-    fullName: "Olivia Miller",
+    email: "Samantha.Prabhu@example.com",
+    fullName: "Samantha Prabhu",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
-    email: "sophia.davis@example.com",
-    fullName: "Sophia Davis",
+    email: "luxmi.davis@example.com",
+    fullName: "Luxmi Davis",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
-    email: "ava.wilson@example.com",
-    fullName: "Ava Wilson",
+    email: "dilson.wilson@example.com",
+    fullName: "Dilson Wilson",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/women/4.jpg",
   },
@@ -57,14 +57,14 @@ const seedUsers = [
 
   // Male Users
   {
-    email: "james.anderson@example.com",
-    fullName: "James Anderson",
+    email: "lebron.james@example.com",
+    fullName: "Lebron James",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
-    email: "william.clark@example.com",
-    fullName: "William Clark",
+    email: "willem.dafoe@example.com",
+    fullName: "Willem Dafoe",
     password: "123456",
     profilePic: "https://randomuser.me/api/portraits/men/2.jpg",
   },
